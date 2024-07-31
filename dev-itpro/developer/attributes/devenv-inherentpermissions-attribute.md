@@ -55,7 +55,7 @@ For information about the `<permission value>` syntax, refer to [permissions val
 ## Example 
 
 ```AL
-[InherentPermissions (PermissionObjectType::Table, Database::"Customer", 'r', InherentPermissionsScope::Both)]
+[InherentPermissions (PermissionObjectType::TableData, Database::"Customer", 'r', InherentPermissionsScope::Both)]
 ```
 
 > [!NOTE]  
